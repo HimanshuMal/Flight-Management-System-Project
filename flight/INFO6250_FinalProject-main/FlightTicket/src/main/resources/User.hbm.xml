@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.mycompany.pojo.User" table="user">
+        <id name="id" column="id" type="integer">
+            <generator class="native"/>
+        </id>
+        <property name="email" column="email" type="string"/>
+        <property name="pass" column="pass" type="string" />
+        <property name="name" column="name" type="string" />
+        <property name="gender" column="gender" type="string"/>
+        <property name="contactNo" column="contactNo" type="long"/>
+        <property name="age" column="age" type="integer"/>
+
+
+      
+    </class>
+</hibernate-mapping>

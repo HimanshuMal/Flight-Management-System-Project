@@ -1,0 +1,15 @@
+Spring Framework: For Model View Controller
+
+Hibernate: For Object-Relational Mapping
+
+Fast Infoset: Binary coding format for XML
+
+Antlr: Parser generator for reading, processing, executing, or translating structured text or binary files
+
+Aspect Weaver: Designed to take instructions specified by aspects and generate the final implementation code
+
+Byte Buddy: Allows to modify Java classes during application runtime without using a compiler
+
+Commons Collections: Augments Java Collections Framework
+
+//Check for spring web 4.3.29 RELEASE

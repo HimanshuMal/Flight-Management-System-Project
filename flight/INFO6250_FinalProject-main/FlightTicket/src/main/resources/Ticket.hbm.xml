@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.mycompany.pojo.Ticket" table="ticket">
+        <id name="id" column="id" type="integer">
+            <generator class="native"/>
+        </id>
+        <property name="PNR" column="PNR" type="integer"/>
+        <property name="date" column="date" type="Date" />
+        <property name="adultCount" column="adultCount" type="integer" />
+        <property name="childCount" column="childCount" type="integer"/>
+        <property name="email" column="email" type="string"/>
+        <property name="travel_date" column="email" type="string"/>
+        <property name="flightNo" column="flightNo" type="string"/>
+    </class>
+</hibernate-mapping>
